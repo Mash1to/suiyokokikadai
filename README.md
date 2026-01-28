@@ -1,3 +1,7 @@
+EC2インスタンスを起動後
+
+Windows powershellを起動
+
 sudo dnf update -y
 
 sudo dnf install -y git　
