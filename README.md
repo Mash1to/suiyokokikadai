@@ -26,7 +26,7 @@ gitからソースコードを取得
 
 git clone https://github.com/Mash1to/suiyokokikadai.git
 
-cd dockertest
+cd suiyokokikadai
 
 Docker コンテナのビルド・起動
 
