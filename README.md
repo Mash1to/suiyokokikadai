@@ -36,4 +36,4 @@ docker compose up -d --build
 
 docker compose ps
 
-mysql入力 sudo docker compose exec mysql mysql example_db
+mysql入力 　　　sudo docker compose exec mysql mysql example_db
