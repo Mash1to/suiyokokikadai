@@ -82,7 +82,7 @@ docker compose ps
 sudo docker compose exec mysql mysql example_db
 ```
 
-### 4-2.SQL作成
+### 4-2.SQL
 ```sql
 CREATE TABLE `users` (
   `id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
