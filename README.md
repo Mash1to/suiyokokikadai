@@ -70,7 +70,7 @@ cd suiyokokikadai
 ```
 docker compose up -d --build
 ```
-正常に起動すると、以下のようなコンテナが起動する。
+コンテナの確認
 ```
 docker compose ps
 ```
