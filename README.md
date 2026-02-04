@@ -37,6 +37,7 @@ sudo mkdir -p /usr/local/lib/docker/cli-plugins/
 ```
 sudo curl -SL https://github.com/docker/compose/releases/download/v2.36.0/docker-compose-linux-x86_64 -o /usr/local/lib/docker/cli-plugins/docker-compose
 ```
+今回はv2.36.0を入れていますが、最新版はv5.0.2です。
 
 ### ダウンロードしたComposeを実行可能にする
 ```
@@ -48,17 +49,19 @@ sudo chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
 sudo usermod -aG docker ec2-user
 ```
 
-再ログイン後に確認:
-
+### 再ログイン後に確認:
+```
 docker --version
-
 docker compose version
+```
 
-gitからソースコードを取得
-
+## ソースコードの配置方法
+今回はgit cloneでGituubからソースコードを取得します。
+```
 git clone https://github.com/Mash1to/suiyokokikadai.git
 
 cd suiyokokikadai
+```
 
 Docker コンテナのビルド・起動
 
