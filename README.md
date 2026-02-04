@@ -126,3 +126,5 @@ CREATE TABLE `user_relationships` (
   `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 ```
+
+アクセス　(パブリック IPv4 アドレス)/login.php
