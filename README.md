@@ -127,5 +127,5 @@ CREATE TABLE `user_relationships` (
 );
 ```
 
-### 5.起動後
-アクセス　(パブリック IPv4 アドレス)/login.php
+### 5.アクセス
+(http://パブリック IPv4 アドレス/login.php)
