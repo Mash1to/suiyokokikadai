@@ -128,4 +128,4 @@ CREATE TABLE `user_relationships` (
 ```
 
 ### 5.確認
-http://パブリック IPv4 アドレス/login.php
+　http://パブリック IPv4 アドレス/login.php
