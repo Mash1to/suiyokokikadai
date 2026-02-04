@@ -1,6 +1,6 @@
-EC2インスタンスを起動後
+## 水曜1，2限後期課題
 
-Windows powershellを起動
+# Dockerのインストール方法
 
 sudo dnf update -y
 
